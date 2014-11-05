@@ -17,5 +17,6 @@ Future plans include:
  * adding custom filter building on all pages
  * editing config info from within the application
  * using the [MK Livestatus plugin](http://mathias-kettner.de/checkmk_livestatus.html) with the new Icinga 2 Web UI
+ * making column count a configurable option (currently hard-coded for six columns)
 
 Please use, fork, comment, and submit patches in good health!
