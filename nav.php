@@ -64,8 +64,8 @@ function buildHostgroupMenu($query) {
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li><a href="/">Overview</a></li>
-                <li <?=echoActiveClassIfRequestMatches("hosts")?>><a href="/hosts.php">Hosts</a></li>
-                <li <?=echoActiveClassIfRequestMatches("services")?>><a href="/services.php">Services</a></li>
+                <li <?=echoActiveClassIfRequestMatches("hosts")?>><a href="hosts.php">Hosts</a></li>
+                <li <?=echoActiveClassIfRequestMatches("services")?>><a href="services.php">Services</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hostgroups <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
