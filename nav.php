@@ -10,6 +10,8 @@
  *
  */
 
+require "config.php";
+
 function echoActiveClassIfRequestMatches($requestUri) {
 /* echoActiveClassIfRequestMatches()
  * borrowed from post by member Chris Moutray here:
@@ -55,7 +57,7 @@ function buildHostgroupMenu($query) {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Icinga HUD</a>
+            <a class="navbar-brand" href="#"><?php echo $branding; ?></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -72,11 +74,6 @@ function buildHostgroupMenu($query) {
                         <?php buildHostgroupMenu($queryhostgroups) ?>
                     </ul>
                 </li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-                <li <?=echoActiveClassIfRequestMatches("printers")?>><a href="printers.php">Printers</a></li>
-                <li <?=echoActiveClassIfRequestMatches("temps")?>><a href="temps.php">Environment</a></li>
-                <li><a href="/admin/">Administration</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

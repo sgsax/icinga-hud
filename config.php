@@ -19,6 +19,8 @@ $icingacgi="cgi-bin/status.cgi";         // path to CGI
 $icingauser="myuser";                    // username to connect to server
 $icingapass="mypass";                    // password
 
+$branding="Icinga HUD";                  // change to suit if desired
+
 $queryhosts="style=hostdetail&hostprops=10&hoststatustypes=12&jsonoutput";
 $querysvcs="serviceprops=10&servicestatustypes=28&jsonoutput";
 $queryall="allproblems&hostprops=10&hoststatustypes=12&serviceprops=10&servicestatustypes=28&jsonoutput";

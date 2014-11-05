@@ -20,7 +20,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Icinga HUD - All Hostgroups</title>
+    <title><?php echo $branding; ?> - All Hostgroups</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
