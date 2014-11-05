@@ -20,7 +20,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CIS Systems Status All Host Problems</title>
+    <title>Icinga HUD - All Host Problems</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
