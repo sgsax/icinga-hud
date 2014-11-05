@@ -1,0 +1,48 @@
+--- bootstrap.css	2014-06-26 11:14:11.000000000 -0500
++++ bootstrap.css.sdg	2014-11-05 09:29:41.111235511 -0600
+@@ -4,6 +4,12 @@
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+  */
+ 
++/* Added media classes for min-width 1400, 1600, & 1900px to handle even
++ *   larger displays.
++ *   Seth Galitzer <sgsax@ksu.edu>
++ *   10/30/2014
++ */
++
+ /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+ html {
+   font-family: sans-serif;
+@@ -1411,6 +1417,21 @@
+     width: 1170px;
+   }
+ }
++@media (min-width: 1400px) {
++  .container {
++    width: 1370px;
++  }
++}
++@media (min-width: 1600px) {
++  .container {
++    width: 1570px;
++  }
++}
++@media (min-width: 1900px) {
++  .container {
++    width: 1870px;
++  }
++}
+ .container-fluid {
+   padding-right: 15px;
+   padding-left: 15px;
+@@ -6200,4 +6221,10 @@
+     display: none !important;
+   }
+ }
++
++/* need this to pad for fixed navbar
++ * Seth Galitzer <sgsax@ksu.edu>
++ * 10/30/2014
++ */
++body { padding-top: 80px; }
+ /*# sourceMappingURL=bootstrap.css.map */
