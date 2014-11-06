@@ -1,0 +1,174 @@
+name: icinga-hud
+description: "https://github.com/sgsax/icinga-hud/raw/master/README.md"
+url: "https://github.com/sgsax/icinga-hud"
+tags: ~
+vendor: Linux
+target: Website
+type: GUI
+license: gplv2
+releases: 
+  -
+    name: 0.1
+    description: "Initial Release"
+    files:
+      -
+        name: LICENSE
+        checksum: 8264535c0c4e9c6c335635c4026a8022
+        url: https://github.com/sgsax/icinga-hud/raw/master/LICENSE
+        description: GPLv2 license file
+      -
+        name: bootstrap/css/bootstrap-theme.css
+        checksum: 1e175b53796c46cb6835cbfb219fb248
+        url: https://github.com/sgsax/icinga-hud/raw/master/bootstrap/css/bootstrap-theme.css
+        description: from Bootstrap v. 3.2.0 bundle
+      -
+        name: bootstrap/css/bootstrap-theme.css.map
+        checksum: faebce397b393cd48125abdc529aa503
+        url: https://github.com/sgsax/icinga-hud/raw/master/bootstrap/css/bootstrap-theme.css.map
+        description: from Bootstrap v. 3.2.0 bundle
+      -
+        name: bootstrap/css/bootstrap-theme.min.css
+        checksum: ffb12f89f706291cb139b73c164a7722
+        url: https://github.com/sgsax/icinga-hud/raw/master/bootstrap/css/bootstrap-theme.min.css
+        description: from Bootstrap v. 3.2.0 bundle
+      -
+        name: bootstrap/css/bootstrap.css
+        checksum: 5ebd4ceb59e32cd8a3ad8ebf7fb2157c
+        url: https://github.com/sgsax/icinga-hud/raw/master/bootstrap/css/bootstrap.css
+        description: modified css based on Bootstrap v. 3.2.0 bundle
+      -
+        name: bootstrap/css/bootstrap.css.map
+        checksum: 3d2931e768a0bf96442072dcd0019aa6
+        url: https://github.com/sgsax/icinga-hud/raw/master/bootstrap/css/bootstrap.css.map
+        description: from Bootstrap v. 3.2.0 bundle
+      -
+        name: bootstrap/css/bootstrap.min.css
+        checksum: 3effa12e4219ab53ebc5645a8ff63a9d
+        url: https://github.com/sgsax/icinga-hud/raw/master/bootstrap/css/bootstrap.min.css
+        description: minimized version of modified css based on Bootstrap v. 3.2.0 bundle
+      -
+        name: bootstrap/css/bootstrap.css.patch
+        checksum: 21587b2ddcbb7b8c1409c258c5b0c029
+        url: https://github.com/sgsax/icinga-hud/raw/master/bootstrap/css/bootstrap.css.patch
+        description: optional patch for custom bootstrap css additions
+      -
+        name: bootstrap/fonts/glyphicons-halflings-regular.eot
+        checksum: 7ad17c6085dee9a33787bac28fb23d46
+        url: https://github.com/sgsax/icinga-hud/raw/master/bootstrap/fonts/glyphicons-halflings-regular.eot
+        description: from Bootstrap v. 3.2.0 bundle
+      -
+        name: bootstrap/fonts/glyphicons-halflings-regular.svg
+        checksum: 32941d6330044744c02493835b799e90
+        url: https://github.com/sgsax/icinga-hud/raw/master/bootstrap/fonts/glyphicons-halflings-regular.svg
+        description: from Bootstrap v. 3.2.0 bundle
+      -
+        name: bootstrap/fonts/glyphicons-halflings-regular.ttf
+        checksum: e49d52e74b7689a0727def99da31f3eb
+        url: https://github.com/sgsax/icinga-hud/raw/master/bootstrap/fonts/glyphicons-halflings-regular.ttf
+        description: from Bootstrap v. 3.2.0 bundle
+      -
+        name: bootstrap/fonts/glyphicons-halflings-regular.woff
+        checksum: 68ed1dac06bf0409c18ae7bc62889170
+        url: https://github.com/sgsax/icinga-hud/raw/master/bootstrap/fonts/glyphicons-halflings-regular.woff
+        description: from Bootstrap v. 3.2.0 bundle
+      -
+        name: bootstrap/js/bootstrap.js
+        checksum: f91d38466de6410297c6dcd8287abbca
+        url: https://github.com/sgsax/icinga-hud/raw/master/bootstrap/js/bootstrap.js
+        description: from Bootstrap v. 3.2.0 bundle
+      -
+        name: bootstrap/js/bootstrap.min.js
+        checksum: abda843684d022f3bc22bc83927fe05f
+        url: https://github.com/sgsax/icinga-hud/raw/master/bootstrap/js/bootstrap.min.js
+        description: from Bootstrap v. 3.2.0 bundle
+      -
+        name: config.php
+        checksum: 15c2e8c9a3dbaa7a4961948df9ff3703
+        url: https://github.com/sgsax/icinga-hud/raw/master/config.php
+        description: configuration file, site customizations go here
+      -
+        name: nav.php
+        checksum: 77e5c6bfcef66cf3822bd64f367baa06
+        url: https://github.com/sgsax/icinga-hud/raw/master/nav.php
+        description: include file to generate navbar for all pages
+      -
+        name: handler.php
+        checksum: 7c491fa3437da195128c6ac7154c672b
+        url: https://github.com/sgsax/icinga-hud/raw/master/handler.php
+        description: contains all functions for generating content
+      -
+        name: screenshots/overview.png
+        checksum: 39311a4066418d173d09fcacf56416d0
+        url: https://github.com/sgsax/icinga-hud/raw/master/screenshots/overview.png
+        description: screenshot used in repo wiki
+      -
+        name: screenshots/hosts.png
+        checksum: a41a2efd076e4500b370829a64e99e70
+        url: https://github.com/sgsax/icinga-hud/raw/master/screenshots/hosts.png
+        description: screenshot used in repo wiki
+      -
+        name: screenshots/services.png
+        checksum: bd45380a2f762fa834e866ce6a563009
+        url: https://github.com/sgsax/icinga-hud/raw/master/screenshots/services.png
+        description: screenshot used in repo wiki
+      -
+        name: screenshots/all_hostgroups.png
+        checksum: 89384e951ab10cdc34ed1187da0d0292
+        url: https://github.com/sgsax/icinga-hud/raw/master/screenshots/all_hostgroups.png
+        description: screenshot used in repo wiki
+      -
+        name: screenshots/single_hostgroup.png
+        checksum: eb2295f609437bb8a2640644d9ffd9f8
+        url: https://github.com/sgsax/icinga-hud/raw/master/screenshots/single_hostgroup.png
+        description: screenshot used in repo wiki
+      -
+        name: screenshots/host_details.png
+        checksum: feb91352ffd79ead86c6f41827fda9de
+        url: https://github.com/sgsax/icinga-hud/raw/master/screenshots/host_details.png
+        description: screenshot used in repo wiki
+      -
+        name: screenshots/customization/environment.png
+        checksum: 4a4aa2005a945971ddd3453fdfa12b33
+        url: https://github.com/sgsax/icinga-hud/raw/master/screenshots/customization/environment.png
+        description: screenshot used in repo wiki
+      -
+        name: screenshots/customization/printer-status.png
+        checksum: 4393791ef157b5bec541c61d0ab96034
+        url: https://github.com/sgsax/icinga-hud/raw/master/screenshots/customization/printer-status.png
+        description: screenshot used in repo wiki
+      -
+        name: index.php
+        checksum: 4ae3ea6f20adfa2a426f7aa4b7d49898
+        url: https://github.com/sgsax/icinga-hud/raw/master/index.php
+        description: default template, shows problem status for all hosts and services
+      -
+        name: services.php
+        checksum: d1137e62c29aec91ea5eca70ab8f1ad2
+        url: https://github.com/sgsax/icinga-hud/raw/master/services.php
+        description: template that shows problem status for all services
+      -
+        name: README.md
+        checksum: 7d3b171542777461a71e4aabfeaba8f7
+        url: https://github.com/sgsax/icinga-hud/raw/master/README.md
+        description: repos readme file
+      -
+        name: hostgroup.php
+        checksum: 05453c61a12808f9d78e3adbab9d8f92
+        url: https://github.com/sgsax/icinga-hud/raw/master/hostgroup.php
+        description: template that shows status summary for all hosts from a specific hostgroup
+      -
+        name: hostgroups.php
+        checksum: b8491e8d3f8839f90cf38d2644bc4fd4
+        url: https://github.com/sgsax/icinga-hud/raw/master/hostgroups.php
+        description: template that shows status summary for all hostgroups
+      -
+        name: host.php
+        checksum: ba4d7322e8bfb3707eac8a498bb33ced
+        url: https://github.com/sgsax/icinga-hud/raw/master/host.php
+        description: template that shows details for service status from a single host
+      -
+        name: hosts.php
+        checksum: 6c772b780710fa500a6cc3096b4da335
+        url: https://github.com/sgsax/icinga-hud/raw/master/hosts.php
+        description: template that shows problem stats for all hosts
+      -
