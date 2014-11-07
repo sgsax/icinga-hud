@@ -1,5 +1,5 @@
 name: icinga-hud
-description: "https://github.com/sgsax/icinga-hud/raw/master/README.md"
+description: "file:///README.md"
 url: "https://github.com/sgsax/icinga-hud"
 tags: ~
 vendor: Linux
